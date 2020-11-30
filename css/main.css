@@ -1,0 +1,132 @@
+@font-face {
+  font-family:'Crayon';
+  src: url('Crayon.otf');
+}
+
+:root {
+  --main-bg-color: #f3fc9f;
+}
+
+body{
+  background-color: var(--main-bg-color);
+  font-family: Crayon, fantasy;
+}
+
+
+
+/******************* First Page *******************/
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  font-family: Crayon, sans-serif;
+  font-size: 75pt;
+  color: red;
+}
+
+#sub {
+  font-size: 35pt;
+  margin-top: -40pt;
+  color: purple;
+}
+
+
+
+
+/******************* Second Page *******************/
+.table-of-content {
+  font-size: 50pt;
+  padding: 15px;
+  margin: 25px;
+
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip:hover {
+  border-color: rgb(139, 217, 75, 0.5);
+  border-style: solid;
+  border-width: 10px;
+  padding: 100px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+  width: 200px;
+  bottom: 0;
+  left: 50%; 
+  margin-left: -100px;
+}
+
+.tooltiptext {
+  font-size: 25px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.toc-pages .nav-buttons {
+  width: 50px;
+  margin-top: -30px;
+  background-color: rgb(149, 189, 224);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+
+  cursor: pointer;
+}
+
+.toc-pages .next {
+  right: 0px;
+}
+.toc-pages .prev {
+  left: 0px;
+}
+.toc-pages .back-to-toc {
+  width: 100px;
+  background-color: var(--main-bg-color);
+  right: 0px;
+
+  margin-top: 0px;
+  top: 0px;
+}

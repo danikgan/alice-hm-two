@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Catalog</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
+  <body>
+    <!-- First Page -->
+    <div id="page-one" class="outer" onclick="goToPageTwo()" style="cursor: pointer;">
+      <div class="middle">
+        <div class="inner">
+          <p id="title">10 Things That Annoy Me</p>
+          <p id="sub">Belarus 2020 edition</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Page -->
+    <div id="page-two" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <span class="table-of-content tooltip" onclick="tocPage(1)">
+                1
+              <span class="tooltiptext">
+                Opening of Nuclear Power Plant
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(2)">
+              2
+              <span class="tooltiptext">
+                Falsification of Coronavirus Data
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(3)">
+              3
+              <span class="tooltiptext">
+                Election Falsification
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(4)">
+              4
+              <span class="tooltiptext">
+                Giving Awards to National Guards for Beating Up Protesting Civilians
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(5)">
+              5
+              <span class="tooltiptext">
+                National Guards Presenting Protestors as Dangerous
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(6)">
+              6
+              <span class="tooltiptext">
+                Disregard of Freedom of Speech
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(7)">
+              7
+              <span class="tooltiptext">
+                Police Brutality (During Protests: August - November)
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(8)">
+              8
+              <span class="tooltiptext">
+                Students Expelled for Participating in Protests
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(9)">
+              9
+              <span class="tooltiptext">
+                Internet Disruptions
+              </span>
+            </span>
+            <span class="table-of-content tooltip"  onclick="tocPage(10)">
+              10
+              <span class="tooltiptext">
+                Disregard of Basic Human Rights
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Table of Content Pages -->
+    <!-- ToC Page 1 -->
+    <div class="toc-pages" id="toc-page-1" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 1
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(1)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(1)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(1)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-2" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 2
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(2)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(2)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(2)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-3" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 3
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(3)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(3)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(3)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-4" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 4
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(4)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(4)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(4)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-5" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 5
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(5)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(5)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(5)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-6" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 6
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(6)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(6)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(6)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-7" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 7
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(7)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(7)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(7)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-8" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 8
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(8)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(8)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(8)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-9" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 9
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(9)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(9)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(9)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toc-pages" id="toc-page-10" style="display: none;">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <!-- <iframe width="1000" height="600" src="https://www.youtube.com/embed/rxBzDZkeIUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            THIS IS PAGE NUMBER 10
+          </div>
+
+          <div>
+            <img class="nav-buttons next" onclick="nextPage(10)"  src="images/arrow-right.png">
+            <img class="nav-buttons prev" onclick="prevPage(10)"  src="images/arrow-left.png">
+            <img class="nav-buttons back-to-toc" onclick="backToToCPage(10)" src="images/TOCbutton.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+    
+
+    <script src="js/myscript.js"></script>
+  </body>
+</html>
