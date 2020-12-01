@@ -47,6 +47,10 @@ body{
   color: purple;
 }
 
+.openning {
+  width: 1000px;
+}
+
 
 
 
@@ -72,14 +76,14 @@ body{
   border-color: rgb(139, 217, 75, 0.5);
   border-style: solid;
   border-width: 10px;
-  padding: 100px;
+  padding: 10px;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: white;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
@@ -103,11 +107,23 @@ body{
   visibility: visible;
 }
 
+.table-of-content .buttons-bears {
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+/******************* Third Page *******************/
 .toc-pages .nav-buttons {
-  width: 50px;
+  width: 100px;
   margin-top: -30px;
-  background-color: rgb(149, 189, 224);
-  border-radius: 5px;
+  /* background-color: rgb(149, 189, 224); */
+  /* border-radius: 5px; */
   padding: 10px;
   z-index: 1;
   position: fixed;
@@ -129,4 +145,17 @@ body{
 
   margin-top: 0px;
   top: 0px;
+}
+
+.toc-pages .toc-titles {
+  padding: 50px;
+  width: 750px;
+}
+
+.toc-pages .toc-main-images{
+  width: 1000px;
+}
+
+.toc-pages .toc-main-images:hover {
+  opacity: 0.25;
 }
